@@ -1,5 +1,4 @@
-﻿Console.ResetColor();
-Console.WriteLine("");
+﻿Console.WriteLine("");
 Console.ForegroundColor = ConsoleColor.Cyan;
 Console.WriteLine("DIGITE UMA FRASE PARA ENCRIPTAR:");
 string frase = Console.ReadLine()!;
@@ -16,7 +15,6 @@ Console.WriteLine("");
 Console.ForegroundColor = ConsoleColor.Magenta;
 Console.WriteLine("FRASE ESCOLHIDA: " + frase);
 Console.WriteLine("FRASE ENCRIPTADA: " + fraseEncriptada);
-Console.ResetColor();
 Console.WriteLine("");
 
     static string fraseNova(string frase, int numero)
